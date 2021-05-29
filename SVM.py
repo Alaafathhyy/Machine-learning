@@ -90,7 +90,7 @@ print("cost function of testing examples after optimization ",g)
 
 acc_test=cal_acc(Y_test,X_test,a)
 print("accuracy of testing examples ",acc_test)
-
+// from here we are trying ti find best features instead of taking them all so we tried 4 features and 2 features and compare the accuracy 
 cols=['trestbps','chol','thalach','oldpeak']
 X_4_f=df[cols]
 
